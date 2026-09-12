@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T09:11:53.009210+00:00",
+  "title": "Design System: Aura TESLA Opt. V5",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm stone",
+        "tonalRamp": [
+          "oklch(15% 0.0139 88.68)",
+          "oklch(26.4% 0.0139 88.68)",
+          "oklch(37.9% 0.0139 88.68)",
+          "oklch(49.3% 0.0139 88.68)",
+          "oklch(60.7% 0.0139 88.68)",
+          "oklch(72.1% 0.0139 88.68)",
+          "oklch(83.6% 0.0139 88.68)",
+          "oklch(95% 0.0139 88.68)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Aegean ink",
+        "tonalRamp": [
+          "oklch(15% 0.0477 220.78)",
+          "oklch(26.4% 0.0477 220.78)",
+          "oklch(37.9% 0.0477 220.78)",
+          "oklch(49.3% 0.0477 220.78)",
+          "oklch(60.7% 0.0477 220.78)",
+          "oklch(72.1% 0.0477 220.78)",
+          "oklch(83.6% 0.0477 220.78)",
+          "oklch(95% 0.0477 220.78)"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Slate body",
+        "tonalRamp": [
+          "oklch(15% 0.0301 211.88)",
+          "oklch(26.4% 0.0301 211.88)",
+          "oklch(37.9% 0.0301 211.88)",
+          "oklch(49.3% 0.0301 211.88)",
+          "oklch(60.7% 0.0301 211.88)",
+          "oklch(72.1% 0.0301 211.88)",
+          "oklch(83.6% 0.0301 211.88)",
+          "oklch(95% 0.0301 211.88)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Restrained gold",
+        "tonalRamp": [
+          "oklch(15% 0.0938 81.63)",
+          "oklch(26.4% 0.0938 81.63)",
+          "oklch(37.9% 0.0938 81.63)",
+          "oklch(49.3% 0.0938 81.63)",
+          "oklch(60.7% 0.0938 81.63)",
+          "oklch(72.1% 0.0938 81.63)",
+          "oklch(83.6% 0.0938 81.63)",
+          "oklch(95% 0.0938 81.63)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Stone rule",
+        "tonalRamp": [
+          "oklch(15% 0.0228 89.81)",
+          "oklch(26.4% 0.0228 89.81)",
+          "oklch(37.9% 0.0228 89.81)",
+          "oklch(49.3% 0.0228 89.81)",
+          "oklch(60.7% 0.0228 89.81)",
+          "oklch(72.1% 0.0228 89.81)",
+          "oklch(83.6% 0.0228 89.81)",
+          "oklch(95% 0.0228 89.81)"
+        ]
+      },
+      "blue": {
+        "role": "neutral",
+        "displayName": "Pale blue",
+        "tonalRamp": [
+          "oklch(15% 0.0110 211.04)",
+          "oklch(26.4% 0.0110 211.04)",
+          "oklch(37.9% 0.0110 211.04)",
+          "oklch(49.3% 0.0110 211.04)",
+          "oklch(60.7% 0.0110 211.04)",
+          "oklch(72.1% 0.0110 211.04)",
+          "oklch(83.6% 0.0110 211.04)",
+          "oklch(95% 0.0110 211.04)"
+        ]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "Terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.1331 34.66)",
+          "oklch(26.4% 0.1331 34.66)",
+          "oklch(37.9% 0.1331 34.66)",
+          "oklch(49.3% 0.1331 34.66)",
+          "oklch(60.7% 0.1331 34.66)",
+          "oklch(72.1% 0.1331 34.66)",
+          "oklch(83.6% 0.1331 34.66)",
+          "oklch(95% 0.1331 34.66)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Inscription identity",
+        "purpose": "Product and recurring brand identity."
+      },
+      "headline": {
+        "displayName": "Editorial headline",
+        "purpose": "Section headings with italic emphasis."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-action",
+        "value": "0 5px 18px #5f38241a",
+        "purpose": "Subtle ambient action lift."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 12px 20px #254b5712",
+        "purpose": "Separate expanded menu from page."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-transition",
+        "value": "background .25s, color .25s",
+        "purpose": "Primary action hover; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "intermediate-max",
+        "value": "1050px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Square terracotta link for the principal action.",
+      "html": "<a class=\"ds-primary\" href=\"#architecture\">Explore the architecture</a>",
+      "css": ".ds-primary{display:inline-flex;padding:15px 22px;background:var(--red,#aa4932);color:#fff9ef;box-shadow:0 5px 18px #5f38241a;text-decoration:none;letter-spacing:.02em;transition:background .25s,color .25s;font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;}.ds-primary:hover{background:#853b29;color:white}.ds-primary:focus-visible{outline:3px solid var(--red,#aa4932);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Quiet underlined action.",
+      "html": "<a class=\"ds-text\" href=\"#architecture\">Look inside the system</a>",
+      "css": ".ds-text{display:inline-block;padding:6px 0;color:var(--ink,#254b57);border-bottom:1px solid #a48c5b;text-decoration:none;font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;}.ds-text:hover{color:var(--red,#aa4932)}.ds-text:focus-visible{outline:3px solid var(--red,#aa4932);outline-offset:5px}"
+    },
+    {
+      "name": "Parts filter",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Native select with external label; browser-native option interaction.",
+      "html": "<label class=\"ds-label\">Filter parts <select class=\"ds-select\"><option>All components</option><option>Electrical</option><option>Mechanical</option></select></label>",
+      "css": ".ds-label{display:flex;align-items:center;gap:12px;color:var(--body,#40585d);font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;font-size:11px}.ds-select{border:1px solid #a7b7b5;background:#f6f8f5;padding:10px;border-radius:0;color:var(--ink,#254b57);font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;}.ds-select:focus-visible{outline:3px solid var(--red,#aa4932);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Horizontal text navigation; mobile menu behavior is documented in DESIGN.md.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#vision\">The vision</a><a href=\"#architecture\">Architecture</a><a href=\"#parts\">Parts &amp; plans</a></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;letter-spacing:.03em;font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;}.ds-nav a{color:var(--body,#40585d);text-decoration:none}.ds-nav a:hover{color:var(--red,#aa4932)}.ds-nav a:focus-visible{outline:3px solid var(--red,#aa4932);outline-offset:5px}"
+    },
+    {
+      "name": "Hardware tabs",
+      "kind": "custom",
+      "refersTo": "navigation",
+      "description": "Selected-state visual specimen; runtime keyboard and panel behavior lives in app.js.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Hardware layers\"><button role=\"tab\" aria-selected=\"true\">Meter</button><button role=\"tab\" aria-selected=\"false\">Compute</button><button role=\"tab\" aria-selected=\"false\">Control</button><button role=\"tab\" aria-selected=\"false\">Back up</button></div>",
+      "css": ".ds-tabs{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #a6b9bd;background:var(--blue,#e1ebed)}.ds-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:15px 4px;color:var(--body,#40585d);cursor:pointer;font-family:var(--sans,'Space Grotesk',sans-serif);font-size:12px;line-height:1.75;}.ds-tabs button[aria-selected=true]{border-color:var(--gold,#987634);color:#684f1c}.ds-tabs button:hover{color:var(--red,#aa4932)}.ds-tabs button:focus-visible{outline:3px solid var(--red,#aa4932);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Aura's classical Mediterranean world",
+    "overview": "Warm stone, Aegean ink and restrained gold carry the user-pinned Aura identity into technical hardware presentation. Classical landscape imagery supplies atmosphere; open editorial sections and ruled specifications make the hardware inspectable.\n\nCinzel, Cormorant Garamond and Space Grotesk are intentionally inherited brand faces. The shipped static site self-hosts them through `WEB/assets/fonts.css`. This record derives from `WEB/styles.css`, `WEB/index.html` and `WEB/app.js`; it describes implemented patterns rather than a new direction.",
+    "keyCharacteristics": [
+      "Warm paper and cool blue section fields.",
+      "Inscription-style identity with expressive serif headings.",
+      "Open columns, square controls and fine dividing rules.",
+      "Technical information presented in readable lists and tables."
+    ],
+    "rules": [
+      {
+        "name": "The Accent Has a Job Rule",
+        "body": "Terracotta signals action or focus; gold supports emphasis and selection.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Use Cinzel for identity, Cormorant Garamond for editorial hierarchy, and Space Grotesk for prose, controls and specifications.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Surface Rule",
+        "body": "Separate editorial content with space, section tone and fine rules, following the implemented open lists and columns.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the inherited Aura faces and classical Mediterranean imagery.",
+      "Do use terracotta for actions and focus, with gold for supporting emphasis and selection.",
+      "Do keep editorial sections open and technical information separated by fine rules.",
+      "Do retain mobile stacking, table scrolling and visible keyboard focus."
+    ],
+    "donts": [
+      "Don't replace the pinned identity with a different visual world.",
+      "Don't turn one-off image washes or page-specific measurements into general tokens.",
+      "Don't infer a rounded-card system from this build's open sections."
+    ]
+  }
+}
