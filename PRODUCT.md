@@ -12,5 +12,7 @@ Inferred audience: people evaluating the project and technically interested Aura
 User requests the spirit of https://leanproiq.com. Retain its classical Mediterranean imagery, serif typography, stone, blue and gold. Use the supplied WEB assets.
 ## Evidence on Hand
 WEB contains hero artwork, exploded BOM PNG and SVG. Latest local export is aura_tesla_opt_files (5): 27 BOM rows, $1,072 estimated total. Shared Blueprint currently differs (31 items, $1,136). Renderings are conceptual; no measured energy savings or completed certification evidence supplied. Assembly guide is incomplete.
+## Published Preprint
+Design, scalability and delivery report registered as an open-access preprint on Zenodo (2026-09-12). DOI: 10.5281/zenodo.22724962 (concept DOI 10.5281/zenodo.22724961). Licence CC BY 4.0. Files: report PDF plus English and Serbian plain-text abstracts. SUBMISSION/ holds the submission artifacts (plain abstracts, metadata, publish script).
 ## Capabilities and Constraints
 Hardware design includes fanless mini-PC, three-phase meter, four relay modules, eight-port Ethernet switch and 24V battery backup. Do not imply delivered optimization software, tested backup duration or proven savings. No commercial price or checkout.
